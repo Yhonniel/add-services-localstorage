@@ -1,0 +1,61 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0 60px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.home {
+  /* min-height: 100vh; */
+  min-height: 100vh;
+}
+
+.fixed-height {
+  height: 100%;
+}
+
+.card {
+  /* width: 18rem; */
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  width: 55px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.delIcon {
+  color: red;
+  cursor: pointer;
+}
+.editIcon {
+  color: blue;
+  cursor: pointer;
+}
+
+.spinnerContainer {
+  margin: 20% auto;
+  max-width: 15%;
+}
